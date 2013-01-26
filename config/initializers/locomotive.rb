@@ -1,20 +1,11 @@
 Locomotive.configure do |config|
 
   # A single locomotiveCMS instance can serve one single site or many.
-  # If you want to run many different websites, you will have to specify
-  # your own domain name (ex: locomotivehosting.com).
-  #
-  # Ex:
-  # config.multi_sites do |multi_sites|
-  #   # each new website you add will have a default entry based on a subdomain
-  #   # and the multi_site_domain value (ex: website_1.locomotivehosting.com).
-  #   multi_sites.domain = 'example.com' #'myhostingplatform.com'
-  #
-  #   # define the reserved subdomains
-  #   # Ex:
-  #   multi_sites.reserved_subdomains = %w(www admin email blog webmail mail support help site sites)
-  # end
-  config.multi_sites = false
+  config.multi_sites do |multi_sites|
+    multi_sites.domain = 'treize37.com'
+    multi_sites.reserved_subdomains = %w(www admin email blog webmail mail support help site sites)
+  end
+  config.multi_sites = true
 
   # configure how many items we display in sub menu in the "Contents" section.
   # config.ui = {
@@ -49,10 +40,6 @@ Locomotive.configure do |config|
   # config.models_for_templatization = %w(Product)
 
   # "Public" forms can be protected from Cross-Site Request Forgery (CSRF) attacks.
-  # By default, that protection is disabled (false) in order to keep backwards compatibility with the existing public forms.
-  #
-  # Note: we strongly recommend to enable it. See the documentation about the "csrf_param" liquid tag.
-  #
   config.csrf_protection = true
 
   # Rack-cache settings, mainly used for the inline resizing image module. Default options:
