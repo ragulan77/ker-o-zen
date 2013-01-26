@@ -1,0 +1,27 @@
+# Rails
+.bundle
+db/*.sqlite3*
+log/*.log
+*.log
+tmp/**/*
+tmp/*
+
+# Documentation
+doc/api
+doc/app
+doc/*
+
+# Vim
+*.swp
+
+# Backup
+*~
+
+# Mac
+.DS_Store
+
+# Scripts
+*.bash
+
+# Environment variables
+config/environment_variables.rb
