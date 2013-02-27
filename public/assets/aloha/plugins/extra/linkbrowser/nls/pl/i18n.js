@@ -1,1 +1,0 @@
-define({"button.addlink.tooltip":"Dodaj link","button.removelink.tooltip":"Usuń link","newlink.defaulttext":"Nowy link","floatingmenu.tab.link":"Link"});

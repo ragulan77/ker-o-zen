@@ -1,1 +1,0 @@
-define({root:{"button.createulist.tooltip":"Insert Unordered List","button.createolist.tooltip":"Insert Ordered List","button.indentlist.tooltip":"Indent List","button.outdentlist.tooltip":"Outdent List","floatingmenu.tab.list":"Lists"},de:!0,eo:!0,fi:!0,fr:!0,it:!0,ru:!0});

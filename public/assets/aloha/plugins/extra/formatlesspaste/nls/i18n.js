@@ -1,1 +1,0 @@
-define({root:{"button.formatlessPaste.tooltip":"Toggle Formatless Pasting"},de:!0,fr:!0,pl:!0,ru:!0});

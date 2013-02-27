@@ -1,1 +1,0 @@
-define({"button.createulist.tooltip":"Вставить Список","button.createolist.tooltip":"Вставить Упорядоченный Список"});

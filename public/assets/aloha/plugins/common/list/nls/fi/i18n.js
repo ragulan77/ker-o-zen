@@ -1,1 +1,0 @@
-define({"button.createulist.tooltip":"Lisää järjestelemätön lista","button.createolist.tooltip":"Lisää järjestelty lista"});
