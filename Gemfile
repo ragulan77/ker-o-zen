@@ -5,7 +5,7 @@ gem 'rails', '3.2.12'
 
 
 # Content management system (CMS)
-gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git@github.com:Treize37/engine.git"
+gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git@github.com:Treize37/engine.git", :branch => "development",
 
 # Heroku hosting specific requirement
 gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
