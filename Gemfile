@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Core application
 gem 'rails', '3.2.12'
 
+gem 'fog', "1.9.0"
+
 # Content management system (CMS)
 gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git://github.com/locomotivecms/engine.git"
 # gem 'locomotive_cms', '~> 2.0.0.rc11'
