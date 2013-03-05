@@ -41,6 +41,15 @@ GIT
       sanitize (~> 2.0.3)
       stringex (~> 1.5.1)
 
+GIT
+  remote: git@github.com:Treize37/locomotive-heroku.git
+  revision: 2a6ad3497c11dd41753c51b78afe7c1acb58768c
+  branch: master
+  specs:
+    locomotive-heroku (0.0.2)
+      heroku-api (~> 0.3.8)
+      rails (~> 3.2.12)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -124,7 +133,7 @@ GEM
     ejs (1.0.0)
     erubis (2.7.0)
     eventmachine (1.0.1)
-    excon (0.19.5)
+    excon (0.16.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
     flash_cookie_session (1.1.4)
@@ -144,6 +153,8 @@ GEM
       actionpack (>= 3.0)
     fssm (0.2.10)
     haml (3.1.8)
+    heroku-api (0.3.8)
+      excon (~> 0.16.10)
     highline (1.6.15)
     hike (1.2.1)
     httparty (0.8.3)
@@ -262,6 +273,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.2)
   compass-rails (~> 1.0.2)
+  locomotive-heroku (~> 0.0.2)!
   locomotive_cms (~> 2.0.0.rc13)!
   rails (= 3.2.12)
   sass-rails (~> 3.2.4)
