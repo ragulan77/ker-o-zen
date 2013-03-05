@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:Treize37/engine.git
+  remote: git://github.com/Treize37/engine.git
   revision: dad959ae617d5139656e71dc21d4e41ec4e485aa
   branch: master
   specs:
@@ -42,7 +42,7 @@ GIT
       stringex (~> 1.5.1)
 
 GIT
-  remote: git@github.com:Treize37/locomotive-heroku.git
+  remote: git://github.com/Treize37/locomotive-heroku.git
   revision: 2a6ad3497c11dd41753c51b78afe7c1acb58768c
   branch: master
   specs:
