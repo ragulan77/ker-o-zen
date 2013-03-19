@@ -5,12 +5,12 @@ gem 'rails', '3.2.12'
 
 
 # Content management system (CMS)
-gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git://github.com/Treize37/engine.git", :branch => "master"
-# gem 'locomotive_cms', '~> 2.0.0.rc11'
+# gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git://github.com/Treize37/engine.git", :branch => "master"
+gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git://github.com/locomotivecms/engine.git"
 
 # Heroku hosting specific requirement
-gem 'locomotive-heroku', '~> 0.0.2', :git => "git://github.com/Treize37/locomotive-heroku.git", :branch => "master"
-# gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
+# gem 'locomotive-heroku', '~> 0.0.2', :git => "git://github.com/Treize37/locomotive-heroku.git", :branch => "master"
+gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
 
 # Assets management
 group :assets do
