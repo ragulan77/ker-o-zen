@@ -66,7 +66,7 @@ module KerOZen
     config.assets.version = '1.0'
 
     # Precompile assets locally
-    config.assets.initialize_on_precompile = false
+    # config.assets.initialize_on_precompile = false
     config.assets.compile = true
   end
 end
