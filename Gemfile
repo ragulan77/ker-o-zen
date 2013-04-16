@@ -3,14 +3,15 @@ source 'https://rubygems.org'
 # Core application
 gem 'rails', '3.2.13'
 
-
 # Content management system (CMS)
-gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git://github.com/Treize37/engine.git", :branch => "master"
+gem 'excon'
+gem 'locomotive_cms', '~> 2.0.1', :require => 'locomotive/engine'
 # gem 'locomotive_cms', '~> 2.0.0.rc13', :git => "git://github.com/locomotivecms/engine.git"
 
 # Heroku hosting specific requirement
-gem 'locomotive-heroku', '~> 0.0.2', :git => "git://github.com/Treize37/locomotive-heroku.git", :branch => "master"
+# gem 'locomotive-heroku', '~> 0.0.2', :git => "git://github.com/Treize37/locomotive-heroku.git", :branch => "master"
 # gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
+
 
 # Assets management
 group :assets do
@@ -21,7 +22,7 @@ group :assets do
 end
 
 group :development do
-  gem 'unicorn'
+  gem 'unicorn', :group => 'development'
 end
 
 group :production do
