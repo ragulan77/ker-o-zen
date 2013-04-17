@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '1.9.3'
 # Core application
 gem 'rails', '3.2.13'
 
@@ -10,7 +10,7 @@ gem 'locomotive_cms', '~> 2.0.1', :require => 'locomotive/engine'
 
 # Heroku hosting specific requirement
 # gem 'locomotive-heroku', '~> 0.0.2', :git => "git://github.com/Treize37/locomotive-heroku.git", :branch => "master"
-# gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
+gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
 
 
 # Assets management
