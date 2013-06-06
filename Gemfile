@@ -15,10 +15,10 @@ gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
 
 # Assets management
 group :assets do
-  gem 'sass-rails',     '~> 3.2.4'
-  gem 'coffee-rails',   '~> 3.2.2'
-  gem 'uglifier',       '~> 1.2.4'
-  gem 'compass-rails',  '~> 1.0.2'
+  gem 'sass-rails', '~> 3.2.4'
+  gem 'coffee-rails', '~> 3.2.2'
+  gem 'uglifier', '~> 1.2.4'
+  gem 'compass-rails', '~> 1.0.2'
 end
 
 group :development do

@@ -61,4 +61,5 @@ Locomotive.configure do |config|
     :app_name   => ENV['HEROKU_APP_NAME']
   }
 
+  # config.search_engine = :mongoid # :mongoid # or elasticsearch or algolia
 end
